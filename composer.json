@@ -1,0 +1,30 @@
+{
+    "name": "matriphe/avatar",
+    "description": "Generates random PNG avatar like Gravatar.",
+    "keywords": [
+        "laravel", "avatar", "gravatar", "png", "userpic", "avatarco"
+      ],
+      "type": "library",
+      "license":"MIT",
+    "authors": [
+        {
+            "name": "Rodion Baskakov",
+            "email": "rodion.baskakov@gmail.com"
+        },
+        {
+            "name": "Muhammad Zamroni",
+            "email": "halo@matriphe.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.2.*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Matriphe\\Avatar": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
